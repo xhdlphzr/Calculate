@@ -16,7 +16,7 @@ public:
     int add();
     int sub();
     int mul();
-    int div();
+    double div();
 };
 
 #endif

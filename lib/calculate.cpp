@@ -22,7 +22,7 @@ int Calculate::mul()
     return a * b;
 }
 
-int Calculate::div()
+double Calculate::div()
 {
-    return a / b;
+    return a * 1.00 / b;
 }
