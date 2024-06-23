@@ -1,0 +1,3 @@
+C:/Users/EndKing/source/repos/Calculate/build/CMakeFiles/calculate.dir
+C:/Users/EndKing/source/repos/Calculate/build/CMakeFiles/edit_cache.dir
+C:/Users/EndKing/source/repos/Calculate/build/CMakeFiles/rebuild_cache.dir
