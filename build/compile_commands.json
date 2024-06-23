@@ -1,14 +1,14 @@
 [
 {
   "directory": "C:/Users/EndKing/source/repos/Calculate/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Users/EndKing/source/repos/Calculate/./include -g -o CMakeFiles\\calculate.dir\\src\\main.cpp.obj -c C:\\Users\\EndKing\\source\\repos\\Calculate\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Users/EndKing/source/repos/Calculate/include -g -std=gnu++23 -Wall -O2 -o CMakeFiles\\Calculate.dir\\src\\main.cpp.obj -c C:\\Users\\EndKing\\source\\repos\\Calculate\\src\\main.cpp",
   "file": "C:\\Users\\EndKing\\source\\repos\\Calculate\\src\\main.cpp",
-  "output": "CMakeFiles\\calculate.dir\\src\\main.cpp.obj"
+  "output": "CMakeFiles\\Calculate.dir\\src\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/EndKing/source/repos/Calculate/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Users/EndKing/source/repos/Calculate/./include -g -o CMakeFiles\\calculate.dir\\lib\\calculate.cpp.obj -c C:\\Users\\EndKing\\source\\repos\\Calculate\\lib\\calculate.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Users/EndKing/source/repos/Calculate/include -g -std=gnu++23 -Wall -O2 -o CMakeFiles\\Calculate.dir\\lib\\calculate.cpp.obj -c C:\\Users\\EndKing\\source\\repos\\Calculate\\lib\\calculate.cpp",
   "file": "C:\\Users\\EndKing\\source\\repos\\Calculate\\lib\\calculate.cpp",
-  "output": "CMakeFiles\\calculate.dir\\lib\\calculate.cpp.obj"
+  "output": "CMakeFiles\\Calculate.dir\\lib\\calculate.cpp.obj"
 }
 ]

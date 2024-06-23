@@ -655,7 +655,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/calculate"
+			"value" : "C:/Program Files (x86)/Calculate"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "calculate"
+			"value" : "Calculate"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1330,19 +1330,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "calculate_BINARY_DIR",
+			"name" : "Calculate_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1354,7 +1342,7 @@
 			"value" : "C:/Users/EndKing/source/repos/Calculate/build"
 		},
 		{
-			"name" : "calculate_IS_TOP_LEVEL",
+			"name" : "Calculate_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1366,7 +1354,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "calculate_SOURCE_DIR",
+			"name" : "Calculate_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1376,6 +1364,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/EndKing/source/repos/Calculate"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

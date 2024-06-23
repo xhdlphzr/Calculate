@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: calculate
+# Project: Calculate
 # Configurations: Debug
 # =============================================================================
 
@@ -41,45 +41,45 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/EndKing/source/repos/Calculate/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target calculate
+# Object build statements for EXECUTABLE target Calculate
 
 
 #############################################
-# Order-only phony target for calculate
+# Order-only phony target for Calculate
 
-build cmake_object_order_depends_target_calculate: phony || .
+build cmake_object_order_depends_target_Calculate: phony || .
 
-build CMakeFiles/calculate.dir/src/main.cpp.obj: CXX_COMPILER__calculate_unscanned_Debug C$:/Users/EndKing/source/repos/Calculate/src/main.cpp || cmake_object_order_depends_target_calculate
-  DEP_FILE = CMakeFiles\calculate.dir\src\main.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/EndKing/source/repos/Calculate/./include
-  OBJECT_DIR = CMakeFiles\calculate.dir
-  OBJECT_FILE_DIR = CMakeFiles\calculate.dir\src
+build CMakeFiles/Calculate.dir/src/main.cpp.obj: CXX_COMPILER__Calculate_unscanned_Debug C$:/Users/EndKing/source/repos/Calculate/src/main.cpp || cmake_object_order_depends_target_Calculate
+  DEP_FILE = CMakeFiles\Calculate.dir\src\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -Wall -O2
+  INCLUDES = -IC:/Users/EndKing/source/repos/Calculate/include
+  OBJECT_DIR = CMakeFiles\Calculate.dir
+  OBJECT_FILE_DIR = CMakeFiles\Calculate.dir\src
 
-build CMakeFiles/calculate.dir/lib/calculate.cpp.obj: CXX_COMPILER__calculate_unscanned_Debug C$:/Users/EndKing/source/repos/Calculate/lib/calculate.cpp || cmake_object_order_depends_target_calculate
-  DEP_FILE = CMakeFiles\calculate.dir\lib\calculate.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/EndKing/source/repos/Calculate/./include
-  OBJECT_DIR = CMakeFiles\calculate.dir
-  OBJECT_FILE_DIR = CMakeFiles\calculate.dir\lib
+build CMakeFiles/Calculate.dir/lib/calculate.cpp.obj: CXX_COMPILER__Calculate_unscanned_Debug C$:/Users/EndKing/source/repos/Calculate/lib/calculate.cpp || cmake_object_order_depends_target_Calculate
+  DEP_FILE = CMakeFiles\Calculate.dir\lib\calculate.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -Wall -O2
+  INCLUDES = -IC:/Users/EndKing/source/repos/Calculate/include
+  OBJECT_DIR = CMakeFiles\Calculate.dir
+  OBJECT_FILE_DIR = CMakeFiles\Calculate.dir\lib
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target calculate
+# Link build statements for EXECUTABLE target Calculate
 
 
 #############################################
-# Link the executable calculate.exe
+# Link the executable Calculate.exe
 
-build calculate.exe: CXX_EXECUTABLE_LINKER__calculate_Debug CMakeFiles/calculate.dir/src/main.cpp.obj CMakeFiles/calculate.dir/lib/calculate.cpp.obj
+build Calculate.exe: CXX_EXECUTABLE_LINKER__Calculate_Debug CMakeFiles/Calculate.dir/src/main.cpp.obj CMakeFiles/Calculate.dir/lib/calculate.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\calculate.dir
+  OBJECT_DIR = CMakeFiles\Calculate.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = calculate.exe
-  TARGET_IMPLIB = libcalculate.dll.a
-  TARGET_PDB = calculate.exe.dbg
+  TARGET_FILE = Calculate.exe
+  TARGET_IMPLIB = libCalculate.dll.a
+  TARGET_PDB = Calculate.exe.dbg
 
 
 #############################################
@@ -108,7 +108,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build calculate: phony calculate.exe
+build Calculate: phony Calculate.exe
 
 # =============================================================================
 # Folder targets.
@@ -118,7 +118,7 @@ build calculate: phony calculate.exe
 #############################################
 # Folder: C:/Users/EndKing/source/repos/Calculate/build
 
-build all: phony calculate.exe
+build all: phony Calculate.exe
 
 # =============================================================================
 # Built-in targets

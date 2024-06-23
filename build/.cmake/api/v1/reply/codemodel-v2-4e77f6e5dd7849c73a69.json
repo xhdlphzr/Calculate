@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "calculate",
+					"name" : "Calculate",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "calculate::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculate-Debug-9e9909ecb891512a0377.json",
-					"name" : "calculate",
+					"id" : "Calculate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Calculate-Debug-2b9f779f239dcc505c86.json",
+					"name" : "Calculate",
 					"projectIndex" : 0
 				}
 			]
