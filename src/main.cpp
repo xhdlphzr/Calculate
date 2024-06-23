@@ -18,11 +18,43 @@ int main()
 
     ios::sync_with_stdio(false);
 
-    int a = 0, b = 0;
-    cin >> a >> b;
+    Calculate cal;
 
-    Calculate ans; ///< create a Calculate object
-    cout << ans.add(a, b) << endl;
+    /// input
+    while (true)
+    {
+        char op;
+        cin >> cal.a >> op >> cal.b;
+
+        if (cal.a == 0 && op == '/' && cal.b == 0)
+        {
+            break;
+        }
+
+        if (op == '/' && cal.b == 0)
+        {
+            continue;
+        }
+
+        switch (op)
+        {
+        case '+':
+            cout << cal.add() << endl;
+            break;
+
+        case '-':
+            cout << cal.sub() << endl;
+            break;
+
+        case '*':
+            cout << cal.mul() << endl;
+            break;
+
+        case '/':
+            cout << cal.div() << endl;
+            break;
+        }
+    }
 
     return 0;
 }

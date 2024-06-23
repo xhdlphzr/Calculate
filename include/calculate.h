@@ -1,7 +1,7 @@
 /**
  * @file calculate.h
  * @author xhdlphzr xhdlphzr@outlook.com
- * @brief class to calculate the sum of two integers
+ * @brief class to calculate
  * @version 0.1
  */
 
@@ -11,7 +11,12 @@
 class Calculate
 {
 public:
-    int add(int a, int b);
+    int a, b;
+
+    int add();
+    int sub();
+    int mul();
+    int div();
 };
 
 #endif
