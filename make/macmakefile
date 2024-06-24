@@ -9,3 +9,6 @@ build/calculate.o: lib/calculate.cpp
 
 clean:
 	rm build/*.o
+
+install:
+	cp build/Calculate /usr/local/bin/Calculate

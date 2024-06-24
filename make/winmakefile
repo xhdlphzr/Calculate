@@ -9,3 +9,6 @@ build\calculate.o: lib\calculate.cpp
 
 clean:
 	del build\*.o
+
+install:
+	copy build\Calculate.exe C:\Users\EndKing\Desktop\Calculate.exe
