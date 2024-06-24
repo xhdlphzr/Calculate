@@ -18,6 +18,8 @@ int main()
 
     ios::sync_with_stdio(false);
 
+    cout << "Welcome to the calculator!\n\n";
+
     Calculate cal;
 
     /// input
@@ -28,11 +30,13 @@ int main()
 
         if (cal.a == 0 && op == '/' && cal.b == 0)
         {
+            cout << "bye bye\n";
             break;
         }
 
         if (op == '/' && cal.b == 0)
         {
+            cout << "Error: division by zero\n";
             continue;
         }
 
