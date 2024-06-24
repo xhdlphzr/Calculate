@@ -1,3 +1,7 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "makefile.makefilePath": "C:\\Users\\EndKing\\source\\repos\\Calculate\\make\\winmakefile"
 }
