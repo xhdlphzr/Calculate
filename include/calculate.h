@@ -2,7 +2,7 @@
  * @file calculate.h
  * @author xhdlphzr xhdlphzr@outlook.com
  * @brief class to calculate
- * @version 0.1
+ * @version 0.1.0
  */
 
 #ifndef CALCULATE_H

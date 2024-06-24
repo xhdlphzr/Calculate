@@ -2,7 +2,7 @@
  * @file calculate.cpp
  * @author xhdlphzr xhdlphzr@outlook.com
  * @brief definition of calculate class
- * @version 0.1
+ * @version 0.1.0
  */
 
 #include "..\\include\\calculate.h"

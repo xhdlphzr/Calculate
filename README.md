@@ -18,7 +18,7 @@ If you are a lazy person, may be you can just read Author's environment and inst
 
 如果你是一个懒人，也许你可以只阅读作者的环境并下载它
 
-## Version 0.2.0
+## Version 0.1.0
 
 Calculator using command line
 
@@ -133,7 +133,7 @@ LLVM - clang++
 
 # 计算器
 
-## 版本 0.2.0
+## 版本 0.1.0
 
 使用命令行的计算器
 

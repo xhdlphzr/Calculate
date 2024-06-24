@@ -2,7 +2,7 @@
  * @file main.cpp
  * @author xhdlphzr xhdlphzr@outlook.com
  * @brief main function
- * @version 0.2
+ * @version 0.1.0
  */
 
 #include <iostream>
