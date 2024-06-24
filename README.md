@@ -1,5 +1,23 @@
 # Calculate
 
+## Reading Notice 阅读须知
+
+If you aren't Chinese, just look at the following
+
+如果你是一个中国人，只需往下翻阅，一直到中文版本
+
+If you are developer, you should read To Developer
+
+如果你是一个开发者，请你在中文版本阅读致开发者
+
+If you aren't developer, you should read To Developer > Tips and To Developer > Environment
+
+如果你不是一个开发者，请你阅读 致开发者 > 温馨提示 还有 致开发者 > 环境
+
+If you are a lazy person, may be you can just read Author's environment and install it
+
+如果你是一个懒人，也许你可以只阅读作者的环境并下载它
+
 ## Version 0.2.0
 
 Calculator using command line
@@ -78,6 +96,10 @@ make install --file make\winmakefile
 make install --file make/macmakefile
 ```
 
+### Tips
+
+If you are just a user, may be you should Build(in To Developer), Clean(also) and install(also) it
+
 ### Environment
 
 > Compiler
@@ -139,6 +161,52 @@ LLVM - clang++
 winmakefile 是在 windows 平台下可以使用的 makefile
 
 unimakefile 是在类 Unix 平台——Mac/Linux 下可以使用的 makefile
+
+### 构建
+
+> 如果你使用 Windows，你可以使用以下命令进行构建
+
+```shell
+make --file make\winmakefile
+```
+
+> 如果你使用 Mac，你可以使用以下命令进行构建
+
+```bash
+make --file make/macmakefile
+```
+
+### 清理
+
+> 如果你使用 Windows，你可以使用以下命令进行清理
+
+```shell
+make clean --file make\winmakefile
+```
+
+> 如果你使用 Mac，你可以使用以下命令进行清理
+
+```bash
+make clean --file make/macmakefile
+```
+
+### 安装
+
+> 如果你使用 Windows，你可以使用以下命令进行安装到桌面
+
+```shell
+make install --file make\winmakefile
+```
+
+> 如果你使用 Windows，你可以使用以下命令进行安装到/usr/local/bin
+
+```bash
+make install --file make/macmakefile
+```
+
+### 温馨提示
+
+如果你只是一个用户，可能你需要按照以上步骤进行构建（在致开发者内）、清理（同理）并安装（同理）
 
 ### 环境
 
