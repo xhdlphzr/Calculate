@@ -72,7 +72,7 @@ make clean --file make/macmakefile
 make install --file make\winmakefile
 ```
 
-> If you use Mac, you can use this command to install it to desktop
+> If you use Mac, you can use this command to install it to /usr/local/bin
 
 ```bash
 make install --file make/macmakefile
