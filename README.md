@@ -31,20 +31,29 @@ Calculator using command line
 3 - 1
 3 * 2
 3 / 8
+3 / 0
+0 / 0
 ```
 
 ### Output Sample
 
 ```
+Welcome to the calculator!
+欢迎使用计算器！
+
 1 + 2 = 3
 3 - 1 = 2
 3 * 2 = 6
 3 / 8 = 0.375
+Error: division by zero
+错误：除数不能为零
+bye bye!
+再见！
 ```
 
 ### Explain
 
-You can input a + b or a - b or a \* b or a / b to calculate a + b or a - b or a \* b or a / b
+You can input a + b or a - b or a \* b or a / b to calculate a + b or a - b or a \* b or a / b， if you input 0 / 0, it will roll out
 
 (a is a integer and b is a integer too)
 
@@ -137,20 +146,30 @@ LLVM - clang++
 3 - 1
 3 * 2
 3 / 8
+3 / 0
+0 / 0
 ```
 
 ### 输出样例
 
 ```
+Welcome to the calculator!
+欢迎使用计算器！
+
 1 + 2 = 3
 3 - 1 = 2
 3 * 2 = 6
 3 / 8 = 0.375
+Error: division by zero
+错误：除数不能为零
+bye bye!
+再见！
+
 ```
 
 ### 说明
 
-你可以输入 a + b 或 a - b 或 a \* b 或 a / b 来计算 a + b 或 a - b 或 a \* b 或 a / b
+你可以输入 a + b 或 a - b 或 a \* b 或 a / b 来计算 a + b 或 a - b 或 a \* b 或 a / b，如果你输入 0 / 0 就会退出
 
 (a 是一个整数并且 b 也是一个整数)
 
