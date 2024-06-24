@@ -5,7 +5,7 @@
  * @version 0.1
  */
 
-#include "calculate.h" //< include/calculate.h
+#include "..\\include\\calculate.h"
 
 int Calculate::add()
 {

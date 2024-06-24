@@ -6,7 +6,7 @@
  */
 
 #include <iostream>
-#include "calculate.h" ///< include/calculate.h
+#include "..\\include\calculate.h"
 
 int main()
 {
@@ -39,19 +39,19 @@ int main()
         switch (op)
         {
         case '+':
-            cout << cal.add() << endl;
+            cout << cal.a << " + " << cal.b << " = " << cal.add() << endl;
             break;
 
         case '-':
-            cout << cal.sub() << endl;
+            cout << cal.a << " - " << cal.b << " = " << cal.sub() << endl;
             break;
 
         case '*':
-            cout << cal.mul() << endl;
+            cout << cal.a << " * " << cal.b << " = " << cal.mul() << endl;
             break;
 
         case '/':
-            cout << cal.div() << endl;
+            cout << cal.a << " / " << cal.b << " = " << cal.div() << endl;
             break;
         }
     }
