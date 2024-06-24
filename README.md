@@ -36,15 +36,17 @@ Calculator using command line
 ### Output Sample
 
 ```
-3
-2
-6
-0.375
+1 + 2 = 3
+3 - 1 = 2
+3 * 2 = 6
+3 / 8 = 0.375
 ```
 
 ### Explain
 
 You can input a + b or a - b or a \* b or a / b to calculate a + b or a - b or a \* b or a / b
+
+(a is a integer and b is a integer too)
 
 ## To Developer
 
@@ -135,22 +137,22 @@ LLVM - clang++
 3 - 1
 3 * 2
 3 / 8
-
 ```
 
 ### 输出样例
 
 ```
-3
-2
-6
-0.375
-3
+1 + 2 = 3
+3 - 1 = 2
+3 * 2 = 6
+3 / 8 = 0.375
 ```
 
 ### 说明
 
 你可以输入 a + b 或 a - b 或 a \* b 或 a / b 来计算 a + b 或 a - b 或 a \* b 或 a / b
+
+(a 是一个整数并且 b 也是一个整数)
 
 ## 致开发者
 
