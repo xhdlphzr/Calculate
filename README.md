@@ -73,12 +73,6 @@ The unimakefile is a makefile on Mac/Linux
 make --file make\winmakefile
 ```
 
-> If you use Mac/Linux, you can use this command to build it
-
-```bash
-make --file make/macmakefile
-```
-
 ### Clean
 
 > If you use Windows, you can use this command to clean it
@@ -87,24 +81,12 @@ make --file make/macmakefile
 make clean --file make\winmakefile
 ```
 
-> If you use Mac/Linux, you can use this command to clean it
-
-```bash
-make clean --file make/macmakefile
-```
-
 ### Install
 
 > If you use Windows, you can use this command to install it to desktop
 
 ```shell
 make install --file make\winmakefile
-```
-
-> If you use Mac, you can use this command to install it to /usr/local/bin
-
-```bash
-make install --file make/macmakefile
 ```
 
 ### Tips
@@ -191,12 +173,6 @@ unimakefile 是在类 Unix 平台——Mac/Linux 下可以使用的 makefile
 make --file make\winmakefile
 ```
 
-> 如果你使用 Mac，你可以使用以下命令进行构建
-
-```bash
-make --file make/macmakefile
-```
-
 ### 清理
 
 > 如果你使用 Windows，你可以使用以下命令进行清理
@@ -205,24 +181,12 @@ make --file make/macmakefile
 make clean --file make\winmakefile
 ```
 
-> 如果你使用 Mac，你可以使用以下命令进行清理
-
-```bash
-make clean --file make/macmakefile
-```
-
 ### 安装
 
 > 如果你使用 Windows，你可以使用以下命令进行安装到桌面
 
 ```shell
 make install --file make\winmakefile
-```
-
-> 如果你使用 Windows，你可以使用以下命令进行安装到/usr/local/bin
-
-```bash
-make install --file make/macmakefile
 ```
 
 ### 温馨提示
