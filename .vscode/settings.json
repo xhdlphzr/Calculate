@@ -3,5 +3,12 @@
   "files.associations": {
     "iostream": "cpp"
   },
-  "makefile.makefilePath": "C:\\Users\\EndKing\\source\\repos\\Calculate\\Makefile"
+  "makefile.makefilePath": "C:\\Users\\EndKing\\source\\repos\\Calculate\\Makefile",
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "c:\\Users\\EndKing\\source\\repos\\Calculate\\build",
+      "binaryPath": "c:\\Users\\EndKing\\source\\repos\\Calculate\\build\\Calculate.exe",
+      "binaryArgs": []
+    }
+  ]
 }
