@@ -8,6 +8,9 @@ build\main.o: src\main.cpp
 build\calculate.o: lib\calculate.cpp
 	clang++ -c lib\calculate.cpp -o build\calculate.o
 
+clean:
+	del build\*
+
 install:
 	md "C:\Program Files\Calculate"
 	copy /y build\Calculate.exe "C:\Program Files\Calculate\Calculate.exe"
