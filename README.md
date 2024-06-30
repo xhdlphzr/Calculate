@@ -16,7 +16,11 @@ If you aren't developer, you should read To Developer > Tips and To Developer > 
 
 If you are a lazy person, may be you can just read Author's environment and install it
 
+How to download Please use search engine to view other tutorials
+
 如果你是一个懒人，也许你可以只阅读作者的环境并下载它
+
+如何下载请使用搜索引擎查看其他教程
 
 ## Version 0.1.0
 
@@ -70,7 +74,7 @@ The unimakefile is a makefile on Mac/Linux
 > If you use Windows, you can use this command to build it
 
 ```shell
-make --file make\winmakefile
+make
 ```
 
 ### Clean
@@ -78,7 +82,7 @@ make --file make\winmakefile
 > If you use Windows, you can use this command to clean it
 
 ```shell
-make clean --file make\winmakefile
+make clean
 ```
 
 ### Install
@@ -86,7 +90,7 @@ make clean --file make\winmakefile
 > If you use Windows, you can use this command to install it to desktop
 
 ```shell
-make install --file make\winmakefile
+make install
 ```
 
 ### Tips
@@ -170,7 +174,7 @@ unimakefile 是在类 Unix 平台——Mac/Linux 下可以使用的 makefile
 > 如果你使用 Windows，你可以使用以下命令进行构建
 
 ```shell
-make --file make\winmakefile
+make
 ```
 
 ### 清理
@@ -178,7 +182,7 @@ make --file make\winmakefile
 > 如果你使用 Windows，你可以使用以下命令进行清理
 
 ```shell
-make clean --file make\winmakefile
+make clean
 ```
 
 ### 安装
@@ -186,7 +190,7 @@ make clean --file make\winmakefile
 > 如果你使用 Windows，你可以使用以下命令进行安装到桌面
 
 ```shell
-make install --file make\winmakefile
+make instal
 ```
 
 ### 温馨提示

@@ -11,4 +11,5 @@ clean:
 	del build\*.o
 
 install:
-	copy build\Calculate.exe C:\Users\EndKing\Desktop\Calculate.exe
+	md "C:\Program Files\Calculate"
+	copy /y build\Calculate.exe "C:\Program Files\Calculate\Calculate.exe"
