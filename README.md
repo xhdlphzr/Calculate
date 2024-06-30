@@ -77,14 +77,6 @@ The unimakefile is a makefile on Mac/Linux
 make
 ```
 
-### Clean
-
-> If you use Windows, you can use this command to clean it
-
-```shell
-make clean
-```
-
 ### Install
 
 > If you use Windows, you can use this command to install it to desktop
@@ -175,14 +167,6 @@ unimakefile 是在类 Unix 平台——Mac/Linux 下可以使用的 makefile
 
 ```shell
 make
-```
-
-### 清理
-
-> 如果你使用 Windows，你可以使用以下命令进行清理
-
-```shell
-make clean
 ```
 
 ### 安装
