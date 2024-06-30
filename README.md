@@ -79,7 +79,7 @@ make
 
 ### Install
 
-> If you use Windows, you can use this command to install it to desktop
+> If you use Windows, you can use this command to install it to "C:\\Program Files\\Calculate"
 
 ```shell
 make install
@@ -171,7 +171,7 @@ make
 
 ### 安装
 
-> 如果你使用 Windows，你可以使用以下命令进行安装到桌面
+> 如果你使用 Windows，你可以使用以下命令进行安装到"C:\\Program Files\\Calculate"
 
 ```shell
 make instal
