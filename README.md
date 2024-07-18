@@ -63,12 +63,6 @@ You can input a + b or a - b or a \* b or a / b to calculate a + b or a - b or a
 
 ## To Developer
 
-There have a make directory, in this directory, you can see two makefile: winmakefile and unimakefile.
-
-The winmakefile is a makefile on Windows.
-
-The unimakefile is a makefile on Mac/Linux
-
 ### Build
 
 > If you use Windows, you can use this command to build it
@@ -152,14 +146,6 @@ bye bye!
 (a 是一个整数并且 b 也是一个整数)
 
 ## 致开发者
-
-这里有一个叫做 make 的目录，在这个目录下，你可以看到两个 makefile——winmakefile 和 unimakefile
-
-这两个 makefile 功能如下：
-
-winmakefile 是在 windows 平台下可以使用的 makefile
-
-unimakefile 是在类 Unix 平台——Mac/Linux 下可以使用的 makefile
 
 ### 构建
 
