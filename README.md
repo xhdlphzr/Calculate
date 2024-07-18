@@ -6,21 +6,17 @@ If you aren't Chinese, just look at the following
 
 如果你是一个中国人，只需往下翻阅，一直到中文版本
 
-If you are developer, you should read To Developer
+You should read Instruction > Tips and Instruction > Environment
 
-如果你是一个开发者，请你在中文版本阅读致开发者
-
-If you aren't developer, you should read To Developer > Tips and To Developer > Environment
-
-如果你不是一个开发者，请你阅读 致开发者 > 温馨提示 还有 致开发者 > 环境
+请你阅读 使用说明 > 温馨提示 还有 使用说明 > 环境
 
 If you are a lazy person, may be you can just read Author's environment and install it
 
-How to download Please use search engine to view other tutorials
+If you don't know how to download, please use search engine to view other tutorials
 
 如果你是一个懒人，也许你可以只阅读作者的环境并下载它
 
-如何下载请使用搜索引擎查看其他教程
+如果你不知道如何下载，请使用搜索引擎查看其他教程
 
 ## Version 0.1.0
 
@@ -60,8 +56,6 @@ bye bye!
 You can input a + b or a - b or a \* b or a / b to calculate a + b or a - b or a \* b or a / b， if you input 0 / 0, it will roll out
 
 (a is a integer and b is a integer too)
-
-## To Developer
 
 ### Build
 
@@ -144,8 +138,6 @@ bye bye!
 你可以输入 a + b 或 a - b 或 a \* b 或 a / b 来计算 a + b 或 a - b 或 a \* b 或 a / b，如果你输入 0 / 0 就会退出
 
 (a 是一个整数并且 b 也是一个整数)
-
-## 致开发者
 
 ### 构建
 
