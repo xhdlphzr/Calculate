@@ -1,12 +1,5 @@
-build\Calculate: build\main.o build\calculate.o
-	clang++ build\main.o build\calculate.o -o build\Calculate.exe
-	del build\*.o
-
-build\main.o: src\main.cpp
-	clang++ -c src\main.cpp -o build\main.o
-
-build\calculate.o: lib\calculate.cpp
-	clang++ -c lib\calculate.cpp -o build\calculate.o
+build\Calculate: src\main.cpp lib\calculate.cpp
+	clang++ src\main.cpp lib\calculate.cpp -o build\Calculate.exe
 
 clean:
 	del build\*
