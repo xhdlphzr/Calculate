@@ -81,7 +81,7 @@ make install
 
 ### Tips
 
-If you are just a user, may be you should Build(in To Developer), Clean(also) and install(also) it
+If you are just a user, may be you should Build(in To Developer), install(also) it
 
 ### Environment
 
@@ -165,7 +165,7 @@ make instal
 
 ### 温馨提示
 
-如果你只是一个用户，可能你需要按照以上步骤进行构建（在致开发者内）、清理（同理）并安装（同理）
+如果你只是一个用户，可能你需要按照以上步骤进行构建（在致开发者内）、安装（同理）
 
 ### 环境
 
