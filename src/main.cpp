@@ -5,6 +5,7 @@
  * @version 0.1.0
  */
 
+#include <cstdlib>
 #include <iostream>
 #include "..\\include\calculate.h"
 
@@ -17,6 +18,7 @@ int main()
     using std::ios;
 
     ios::sync_with_stdio(false);
+    system("chcp 65001");
 
     cout << "Welcome to the calculator!\n";
     cout << "欢迎来到计算器！\n\n";
